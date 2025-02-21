@@ -1,0 +1,337 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+    box-sizing:border-box;
+    list-style:none;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+header{
+    display:flex;
+    align-items:center;
+    height:100px;
+    padding: 0 40px;
+    background-color:#ffff;
+    position:relative;
+    box-shadow:rgba(128,128,128,0.726) 0 1px 3px;
+
+}
+.image{
+    height:50px;
+    width:50px;
+    margin-right:20px;
+}
+.image:hover{
+    pointer:pointer;
+}
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+.nav ul{
+    display:flex;
+    align-items:center;
+    height:100px;
+
+}
+.nav ul li{
+    color:black;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+    font-size:18px;
+
+}
+.nav-option{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+
+}
+
+.location{
+    display:flex;
+    align-items:center;
+    margin-right:20px;
+}
+.location:hover{
+    cursor:pointer;
+    color:greenyellow;
+}
+.image2{
+    height:25px;
+    width:25px;
+}
+.store{
+    color:black;
+    font-weight:700;
+    font-size:18px;
+    margin-right:60px;
+}
+.store:hover{
+    color:rgb(19, 106, 41);
+}
+.button1{
+    background-color:#ffff;
+    border-width:1px;
+    border-style:solid;
+    border-radius:50px;
+    border-color:black;
+    width:70px;
+    height:30px;
+    margin-right:30px;
+
+}
+.button1:hover{
+    cursor:pointer;
+    background-color:rgb(236, 229, 229);
+}
+.button2{
+    background-color:black;
+    border-width:1px;
+    border-style:solid;
+    border-radius:50px;
+    border-color:#fff;
+    width:100px;
+    height:30px;
+    margin-right:30px;
+    
+
+}
+.button2:hover{
+    opacity:60%;
+}
+.but-text2{
+    color:black;
+    font-weight:bold;
+}
+.but-text1{
+    color:white;
+    font-weight:bold;
+
+
+}
+/*container1 css*/
+.container1 .container-items1{
+    margin-top:30px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+.container1 .container-items1 .container1-image{
+    width:50vw;
+
+}
+.container1 .container-text1{
+    text-align:center;
+    margin:0 20px;
+}
+.container1 h1{
+    font-size:50px;
+    margin-bottom:30px;
+    color:white;
+    font-family:sans-serif,SoDo Sans;
+    letter-spacing:3px;
+    margin-left:20px;
+}
+.container1 p{
+    font-size:25px;
+    font-weight:500;
+    margin-bottom:30px;
+    margin-left:40px;
+    font-family:sans-serif,SoDo Sans;
+    letter-spacing:3px;
+    color:white;
+    
+    
+}
+.container1 button{
+    border-radius:40px;
+    width:120px;
+    height:35px;
+    text-align:center;
+    font-weight:700;
+    background-color:#00704A;
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+    color:white;
+    font-size:16px;
+}
+.container1 button:hover{
+    cursor:pointer;
+    background-color:rgba(23, 82, 23, 0.817)
+}
+/*container2 css*/
+.container2 .container-items2{
+    margin-top:30px;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    justify-content:center;
+}
+.container2 .container-items2 .container2-image{
+    width:50vw;
+
+}
+.container2 .container-text2{
+    text-align:center;
+    margin:0 20px;
+}
+.container2 h1{
+    font-size:50px;
+    margin-bottom:30px;
+    color:#184234;
+    font-family:sans-serif,SoDo Sans;
+    letter-spacing:3px;
+    margin-left:20px;
+}
+.container2 p{
+    font-size:25px;
+    font-weight:500;
+    margin-bottom:30px;
+    margin-left:40px;
+    font-family:sans-serif,SoDo Sans;
+    letter-spacing:3px;
+    color:#184234;
+    
+    
+}
+.container2 button{
+    border-radius:40px;
+    width:120px;
+    height:35px;
+    text-align:center;
+    font-weight:700;
+    background-color:#d1e3ca;
+    border-style:solid;
+    border-width:1px;
+    border-color:#184234;
+    color:#184234;
+    font-size:16px;
+}
+.container2 button:hover{
+    cursor:pointer;
+    background-color:#cadec3;
+}
+/*container3 css*/
+.container3 .container-items3{
+    margin-top:30px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+.container3 .container-items3 .container3-image{
+    width:50vw;
+
+}
+.container3 .container-text3{
+    text-align:center;
+    margin:0 20px;
+}
+.container3 h1{
+    font-size:25px;
+    margin-bottom:30px;
+    color:white;
+    font-family:sans-serif,SoDo Sans;
+    letter-spacing:3px;
+    margin-left:60px;
+}
+.container3 p{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:30px;
+    margin-left:50px;
+    margin-right:50px;
+    font-family:sans-serif,SoDo Sans;
+    color:white;
+    line-height:25px;
+    
+    
+}
+.container3 button{
+    border-radius:40px;
+    width:100px;
+    height:35px;
+    text-align:center;
+    font-weight:700;
+    background-color:#63483c;
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+    color:white;
+    font-size:16px;
+}
+.container3 button:hover{
+    cursor:pointer;
+    background-color:#4e3328;
+
+}
+/*description*/
+.description{
+    box-shadow:rgba(128,128,128,0.726) 0 1px 3px;
+    margin-bottom:40px;
+    
+}
+.offer-text{
+    margin-top:40px;
+    margin-left:200px;
+    margin-right:200px;
+    line-height:25px;
+    font-size:15px;
+    margin-bottom:40px;
+    
+}
+/*footer part*/
+footer{
+    margin-top:30px;
+    box-shadow:rgba(128,128,128,0.726) 0 1px 3px;
+}
+.footer-head{
+    display:flex;
+    flex-direction:row;
+    padding:30px;
+    justify-content:space-between;
+}
+.footer-head div{
+    padding:0 15px;
+    width:15vw;
+}
+
+ul li{
+    padding-bottom:25px;
+    
+}
+
+
+
+.footer-down .icons{
+    display:flex;
+    flex-direction:row;
+    height:35px;
+    width:35px;
+    margin-left:30px;
+    margin-top:40px;
+    margin-bottom:30px;
+    
+    
+}
+.footer-down .icons img{
+    padding-left:20px;
+}
+.footer-down .terms{
+    margin-bottom:20px;
+    margin-left:50px;
+}
+.terms ul li .foot{
+    font-weight:30;
+}
+/*pseudo-classes*/
+
+

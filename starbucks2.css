@@ -1,0 +1,152 @@
+.navbar{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.img{
+    max: width 100%;
+}
+.logo img{
+    height:50px;
+    width:50px;
+    padding-right:20px;
+    
+}
+
+.nav-left {
+    display: flex;  /* Makes the list items appear side by side */
+    list-style: none;
+    gap: 20px; /* Adds spacing between items */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-left li {
+    list-style: none;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-right {
+    display: flex;  
+    align-items: center; 
+    list-style: none; 
+    gap: 20px;
+    
+}
+
+.nav-right li {
+    list-style: none;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-right button {
+    background-color: #00704a;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-right button:hover {
+    background-color: #005c3c;
+}
+.right-part {
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between;
+    padding:20px;
+}
+.fa-location-dot {
+
+    font-size: 20px;
+
+    color: rgb(16, 16, 16);
+
+}
+
+.location{
+    padding-left:400px;
+}
+.btn-dark-outline {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.left {
+    width: 50%;
+    background: url('your-image-url.jpg') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.left h1 {
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.right {
+    width: 50%;
+    background-color: #004c25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+}
+.right h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.right p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: white;
+    color: #004c25;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #ccc;
+}
+
+
+
+
